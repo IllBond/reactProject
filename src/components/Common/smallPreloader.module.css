@@ -1,0 +1,11 @@
+.div {
+    display: inline-block;
+
+}
+
+.smallPreloader
+{
+    padding-top: 10px;
+    width: 35px;
+    height: 20px;
+}

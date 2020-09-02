@@ -1,0 +1,66 @@
+.main {
+    display: grid;
+    grid-template-columns: 5fr 2fr
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: 1fr 5fr
+}
+
+.main > div {
+    margin: 5px;
+    border: 1px solid #000000
+}
+
+
+.block1 > div, .block2 > div {
+    margin: 10px
+}
+
+.block3 {
+
+}
+
+.block4 > .profiles {
+    margin: 10px
+}
+
+.block4 > .people {
+    border-top: 1px solid #000000
+}
+
+.block3 {
+    display: grid;
+}
+
+.block4 h3 {
+    text-align: center;
+}
+
+.imgPersonal {
+    width: 50px;
+}
+
+.people > div {
+    margin: 10px
+}
+
+.profile {
+    border: 1px solid #000000;
+    border-radius: 20px;
+    margin: 5px 0 5px 0;
+    padding: 5px
+}
+
+.photo img {
+    height: 50px;
+}
+
+#map {
+    grid-template-columns: 1fr
+}
+
+.red {
+    color: #b80007;
+}

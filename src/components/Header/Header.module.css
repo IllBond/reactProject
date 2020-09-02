@@ -1,0 +1,25 @@
+.grid {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+.content {
+    text-align: center;
+}
+
+.content a {
+    text-decoration: none;
+    color: #1d1d1d;
+}
+
+.content a:hover{
+    text-decoration: underline;
+    color: #1d1d1d;
+}
+
+.error {
+    border: red 1px solid;
+    color: red;
+    margin: 0 25px 0 25px;
+    padding: 5px;
+}

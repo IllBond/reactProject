@@ -1,0 +1,38 @@
+.selected {
+    color: red;
+}
+.pages {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: grid;
+
+    margin: 0 auto;
+}
+
+.pages .to {
+    border: 1px solid black;
+    padding: 3px;
+    margin: 2px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.pages span {
+    border: 1px solid black;
+    padding: 3px;
+    margin: 2px;
+    display: inline-block;
+    font-weight: 800;
+}
+
+.pages .to:hover {
+    text-decoration: underline;
+}
+
+.range{
+    width: 100%;
+}

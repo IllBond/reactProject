@@ -1,0 +1,22 @@
+.contacts {
+    margin:10px;
+    padding: 0px 10px 10px 10px;
+    border-left:1px solid black;
+}
+
+.data {
+    padding: 5px;
+    border: 1px solid black;
+    margin: 5px 0 5px 0;
+}
+
+.error {
+    border-right: 1px solid red;
+    padding: 3px;
+    margin: 3px;
+    color: red;
+}
+
+ .grey {
+     color: rgba(255, 0, 10, 0.96);
+ }

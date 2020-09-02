@@ -1,0 +1,9 @@
+.red_border {
+    border: red 1px solid;
+}
+
+.red_color {
+    margin: 5px;
+    font-size: .8em;
+    color: red;
+}

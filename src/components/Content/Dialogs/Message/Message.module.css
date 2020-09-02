@@ -1,0 +1,66 @@
+.message {
+    padding: 15px;
+
+}
+
+.messageWindow {
+    min-height: 100px;
+    margin: 15px;
+    padding: 10px;
+    border-left: 1px solid black;
+}
+
+.newMessage {
+    margin: 15px;
+    padding: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.newMessage input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.dialog {
+    display: grid;
+    grid-template-columns: 50px 100px 2fr;
+    grid-template-rows: 50px 1fr;
+    grid-template-areas: "dialogPhoto dialogName dialogData"
+                         "dialogMessage dialogMessage dialogMessage";
+;
+}
+
+.dialogPhoto {
+    grid-area: dialogPhoto;
+}
+
+.dialogPhoto img {
+    width: 100%;
+}
+
+.dialogName {
+    grid-area: dialogName;
+    display: grid;
+    align-items: center;
+    padding-left: 15px;
+    font-weight: 800;
+}
+
+.dialogDate {
+    grid-area: dialogData;
+    display: grid;
+    align-items: center;
+    font-style: italic;
+}
+
+.dialogMessage {
+    grid-area: dialogMessage;
+    margin: 5px 0 5px 25px;
+    border-left: 1px solid black;
+    padding: 5px;
+
+}
+
+.dialogYou {
+    margin-left: 50px;
+}

@@ -1,0 +1,11 @@
+.red {
+    color :red
+}
+.border {
+    border: 3px saddlebrown solid;
+    padding: 15px;
+}
+
+.big {
+    font-size: 22px;
+}
